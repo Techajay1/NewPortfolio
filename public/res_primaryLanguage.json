@@ -81,37 +81,60 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
+        "company": "Dalvkot Utility Enterprise",
         "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "years": "12.2021 - present",
         "mainTech": [
           "Angular 8/9/10"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
+          "Angular",
           "JavaScript",
           "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
+          "MySQL",
+          "WorkBench",
+          "Node Js",
+          "MySQL",
           "Angular Material"
         ]
       },
       {
-        "company": "Serros Solutions",
+        "company": "SDLC Training",
         "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "years": "03.2021 - 10.2021",
         "mainTech": [
-          "Angular 7/8"
+          "Angular 7/8",
+          "Node Js"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "HTML",
+          "Css",
+          "Bootstrap",
           "JavaScript",
-          "DHTMLX Gantt"
+          "Angular",
+          "Node Js",
+          "Express Js",
+          "MongoDB"
+        ]
+      },
+      {
+        "company": "SDLC Training",
+        "title": "Intern",
+        "years": "03.2021 - 10.2021",
+        "mainTech": [
+          "Angular 7/8",
+          "Node Js"
+        ],
+        "technologies": [
+          "HTML",
+          "Css",
+          "Bootstrap",
+          "JavaScript",
+          "Angular",
+          "Node Js",
+          "Express Js",
+          "MongoDB"
         ]
       }
     ]

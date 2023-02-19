@@ -8,6 +8,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
+
 class App extends Component {
 
   constructor(props) {
@@ -81,7 +82,21 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+
+      <div style={{backgroundColor:'grey'}}>
+        
+        <div className="app__navbar-logo">
+          {/* <img src={images.logo} alt="logo" /> */}
+          <h4>AJAY YADAV</h4>
+        </div>
+        <ul className="app__navbar-links">
+                {['home', 'about', 'projects', 'skills'].map((item) => (
+                    <li className="app__flex p-text" key={`link-${item}`}>
+                        <div />
+                        <a href={`#${item}`}>{item}</a>
+                    </li>
+                ))}
+            </ul>
         <Header sharedData={this.state.sharedData.basic_info} />
         <div className="col-md-12 mx-auto text-center language">
           <div
